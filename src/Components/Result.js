@@ -6,7 +6,7 @@ import { Pie } from "react-chartjs-2";
 ChartJS.register(ArcElement, Tooltip, Legend);
 
 const Result = ({ data }) => {
-    const { homeValue, loanAmount, loanTerm, interestRate } = data;
+    const { carValue, loanAmount, loanTerm, interestRate } = data;
     const totalLoanMonths = loanTerm * 12;
     const interestPerMonth = interestRate / 100 / 12;
     const monthlyPayment =
@@ -22,7 +22,7 @@ const Result = ({ data }) => {
         datasets: [
           {
             label: "Ratio of Principle and Interest",
-            data: [homeValue, totalInterestGenerated],
+            data: [carValue, totalInterestGenerated],
             backgroundColor: ["rgba(255, 99, 132, 0.2)", "rgba(54, 162, 235, 0.2)"],
             borderColor: ["rgba(255, 99, 132, 1)", "rgba(54, 162, 235, 1)"],
             borderWidth: 1,
