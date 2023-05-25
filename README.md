@@ -1,4 +1,4 @@
-# Hiro's Mortgage Calculator
+# Hiro's Auto Loan Calculator
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
