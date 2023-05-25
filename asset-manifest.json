@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/hiros-mortgage-calculator/static/css/main.073c9b0a.css",
+    "main.js": "/hiros-mortgage-calculator/static/js/main.3b40b4d4.js",
+    "static/js/787.b6e36b20.chunk.js": "/hiros-mortgage-calculator/static/js/787.b6e36b20.chunk.js",
+    "index.html": "/hiros-mortgage-calculator/index.html",
+    "main.073c9b0a.css.map": "/hiros-mortgage-calculator/static/css/main.073c9b0a.css.map",
+    "main.3b40b4d4.js.map": "/hiros-mortgage-calculator/static/js/main.3b40b4d4.js.map",
+    "787.b6e36b20.chunk.js.map": "/hiros-mortgage-calculator/static/js/787.b6e36b20.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.073c9b0a.css",
+    "static/js/main.3b40b4d4.js"
+  ]
+}
